@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
+
+.sidebar h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar button {
+    padding: 10px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.profile-photo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 190px; 
+    height: 190px; 
+    border-radius: 50%; 
+    border: 2px solid white;
+}
